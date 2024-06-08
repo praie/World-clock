@@ -28,6 +28,10 @@ select {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
 }
 .time {
   font-size: 36px;
